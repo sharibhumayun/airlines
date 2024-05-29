@@ -7,8 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1fQzo4--qVABFSZ-cRHjPnxXF-7NdOOX9
 """
 
+!pip install streamlit
 import streamlit as st
 import pandas as pd
+import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -89,3 +91,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
